@@ -600,7 +600,7 @@ float: left;
 #articlesection2{
 width: 200px;
 margin: auto;
-float: right;
+float: left;
 
 }
 
@@ -612,7 +612,7 @@ float: right;
   float:left;
   margin: 5px 5px 5px 5px;
  }
- #arthurimage{
+ #authorimage{
   height: 200px;
   width: 120px;
  }
