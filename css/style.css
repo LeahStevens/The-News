@@ -197,3 +197,82 @@ nav > ul li a{
 .clear {
   clear: both;
 }
+
+/* Start Snippets */
+
+#snippets {
+  background-color: white;
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -30px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+.snippet h1 {
+  border-top: 2px solid gray;
+  margin: 20px 20px 0 20px;
+}
+
+.snippet h2 {
+  margin: 10px 10px 0 20px;
+  padding-bottom: 0;
+  padding-top: 10px;
+  color: green;
+  float: left;
+  display: inline-block;
+}
+
+.snippet h3 {
+  margin: 0px;
+  float: left;
+  display: inline-block;
+}
+
+.snippet h4 {
+  margin: -10px 20px 0 20px;
+  float: left;
+  width: 900px;
+}
+
+#snippeticons {
+  display: inline;
+  padding: 0;
+  float: left;
+  width: 700px;
+  position: relative;
+  top: 10px;
+  }
+
+#snippeticons li {
+  display: inline;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+#snippetimage img {
+  width: 194px;
+  height: 194px;
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+
+#snippettext {
+margin-top: 65px;
+}
+
+#yourattentionplease {
+  color: green;
+  font-family: sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+/* End Snippets */
