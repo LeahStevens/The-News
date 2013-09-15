@@ -92,27 +92,27 @@ nav > ul li a{
    text-align: center;
 }
 
-#navbusiness:hover {
+.navbusiness:hover {
   background-color: #ff8a27;
   text-align: center;
 }
 
-#navpolitics:hover {
+.navpolitics:hover {
   background-color: #ff2932;
   text-align: center;
 }
 
-#navsports:hover {
+.navsports:hover {
   background-color: #07abff;
   text-align: center;
 }
 
-#navscience:hover {
+.navscience:hover {
   background-color: #38e85c;
   text-align: center;
 }
 
-#navworld:hover {
+.navworld:hover {
   background-color: #ffff49;
   text-align: center;
 }
@@ -126,10 +126,13 @@ nav > ul li a{
   margin-left: 418px;
 }
 
-#imgbanner {
+.imgbanner {
   position: relative;
+  width: 960px;
+  height: 300px;
 }
 
+/*Business Banner Color*/
 #featuredbanner1 {
   height: 40px;
   width: 500px;
@@ -143,7 +146,9 @@ nav > ul li a{
   padding: 5px 25px 5px 25px;
   letter-spacing: 1px;
 }
+/*End Business Banner*/
 
+/*Politics Banner Color*/
 #featuredbanner2 {
   height: 40px;
   width: 500px;
@@ -157,7 +162,9 @@ nav > ul li a{
   padding: 5px 25px 5px 25px;
   letter-spacing: 1px;
 }
+/*End Politics Banner*/
 
+/*Sports Banner Color*/
 #featuredbanner3 {
   height: 40px;
   width: 500px;
@@ -171,7 +178,9 @@ nav > ul li a{
   padding: 5px 25px 5px 25px;
   letter-spacing: 1px;
 }
+/*End Sports Banner*/
 
+/*Science and Tech Banner color*/
 #featuredbanner4 {
   height: 40px;
   width: 500px;
@@ -185,6 +194,7 @@ nav > ul li a{
   padding: 5px 25px 5px 25px;
   letter-spacing: 1px;
 }
+/*End Science Banner*/
 
 #featuredbanner5 {
   height: 40px;
@@ -556,13 +566,15 @@ margin-top: 65px;
 }
 
 #thumb1 {
-  border: 5px solid black;
+  width: 180px;
+  height: 180px;
+  border: 8px solid black;
   display: inline-block;
   float: left;
 }
 
 #thumb1:hover {
-  border: 5px solid #ff8a27;
+  border: 8px solid #ff8a27;
   transition: all 0.5s ease-in-out;
 }
 
