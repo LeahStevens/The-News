@@ -569,4 +569,39 @@ margin-top: 65px;
 .clear {
   clear: both;
 }
+
+
+/* css for articles layout*/
+
+#articlesection1{
+width: 730px;
+margin: 5px 5px 5px 5px;
+float: left;
+
+}
+#adate{
+  float:right;
+}
+
+
+#articlesection2{
+width: 200px;
+margin: auto;
+float: right;
+
+}
+
+
+.sidebartitles{
+
+}
+.sidebarp{
+  font-size: 12px;
+}
+.aimages{
+  float:left;
+  margin: 5px 5px 5px 5px;
+ }
+
 /*End Newsfeed Section*/
+
