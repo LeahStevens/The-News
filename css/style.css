@@ -237,6 +237,7 @@ nav > ul li a{
 #comments_section{
   width: 860px;
   margin: auto;
+  float: left;
 }
 
 #comments_section .clear_floats{
@@ -660,21 +661,37 @@ float: left;
 #articlesection2{
 width: 200px;
 margin: auto;
-float: right;
+float: left;
 
 }
 
-
-.sidebartitles{
-
-}
 .sidebarp{
   font-size: 12px;
 }
+/* Images for article template*/
 .aimages{
   float:left;
   margin: 5px 5px 5px 5px;
  }
-
+ #authorimage{
+  height: 200px;
+  width: 120px;
+ }
+#articleimage{
+  height:180 ;
+  width:180 ;
+}
+#ad1image{
+  height: 200px;
+  width: 175px;
+}
+#ad2image{
+  height: 300px;
+  width: 200px;
+}
+#sideimage{
+  height: 100px;
+  width: 60px;
+}
 /*End Newsfeed Section*/
 
