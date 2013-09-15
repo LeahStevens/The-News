@@ -130,7 +130,7 @@ nav > ul li a{
   position: relative;
 }
 
-#featuredbanner {
+#featuredbanner1 {
   height: 40px;
   width: 500px;
   background-color:#ff8a27;
@@ -139,8 +139,65 @@ nav > ul li a{
   right: -460px;
 }
 
-#featuredbanner > h2 {
+#featuredbanner1 > h2 {
   padding: 5px 25px 5px 25px;
+  letter-spacing: 1px;
+}
+
+#featuredbanner2 {
+  height: 40px;
+  width: 500px;
+  background-color:#ff2932;
+  position: relative;
+  top: -40px;
+  right: -460px;
+}
+
+#featuredbanner2 > h2 {
+  padding: 5px 25px 5px 25px;
+  letter-spacing: 1px;
+}
+
+#featuredbanner3 {
+  height: 40px;
+  width: 500px;
+  background-color: #07abff;
+  position: relative;
+  top: -40px;
+  right: -460px;
+}
+
+#featuredbanner3 > h2 {
+  padding: 5px 25px 5px 25px;
+  letter-spacing: 1px;
+}
+
+#featuredbanner4 {
+  height: 40px;
+  width: 500px;
+  background-color: #38e85c;
+  position: relative;
+  top: -40px;
+  right: -460px;
+}
+
+#featuredbanner4 > h2 {
+  padding: 5px 25px 5px 25px;
+  letter-spacing: 1px;
+}
+
+#featuredbanner5 {
+  height: 40px;
+  width: 500px;
+  background-color: #ffff49;
+  position: relative;
+  top: -40px;
+  right: -460px;
+}
+
+#featuredbanner5 > h2 {
+  padding: 5px 25px 5px 25px;
+  letter-spacing: 1px;
 }
 
 /*****************End Navigation*************************/
