@@ -2,9 +2,9 @@
 @import url(http://fonts.googleapis.com/css?family=Trykker);
 @import url(http://fonts.googleapis.com/css?family=Krona+One);
 
-html {
+/*html {
   background-color: black;
-}
+}*/
 
 h1 {
   font-size:30px;
@@ -197,3 +197,36 @@ nav > ul li a{
 .clear {
   clear: both;
 }
+
+/* css for articles layout*/
+
+#articlesection1{
+width: 730px;
+margin: 5 5 5 5;
+float: left;
+}
+}
+#adate{
+  float:right;
+}
+
+
+#articlesection2{
+width: 200px;
+margin: auto;
+float: right;
+/*border-left: 1px solid; */
+}
+
+.whitebox{
+  background-color: white;
+}
+.sidebartitles{
+
+}
+.sidebarp{
+  font-size: 12px;
+}
+.aimages{
+  float:left;
+  margin: 5 5 5 5;
