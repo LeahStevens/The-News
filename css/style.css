@@ -227,6 +227,7 @@ nav > ul li a{
 #comments_section{
   width: 860px;
   margin: auto;
+  float: left;
 }
 
 #comments_section .clear_floats{
