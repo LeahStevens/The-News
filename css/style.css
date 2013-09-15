@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Trykker);
+@import url(http://fonts.googleapis.com/css?family=Krona+One);
+
+html {
+  background-color: black;
+}
+
+h1 {
+  font-size:30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+h2 {
+  font-size:20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+h3 {
+  font-size:15px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  color: #000;
+}
+
+h4 {
+  font-size:28px;
+  font-family: 'Trykker', serif;
+  font-weight: bold;
+  color: #000;
+}
+
+h5 {
+  font-size:25px;
+  font-family: 'Trykker', serif;
+  font-weight: normal;
+  color: #000;
+}
+
+h6 {
+  font-size:16px;
+  font-family: 'Trykker', serif;
+  font-weight: bold;
+  color: #000;
+}
+
+p {
+  font-size:16px;
+  font-family: 'Trykker', serif;
+  font-weight: normal;
+  color: rgba(43, 44, 45, 0.8);
+}
+
+#container{
+  margin: auto;
+  width: 960px;
+  height: auto;
+  background-color: #fff;
+}
+
+/*Start Navigation*/
+nav{
+  background-color: #fff;
+  padding: 5px 15px 10px 15px;
+  border-top: 1px solid black;
+  margin-top:15px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+nav > ul {
+  text-align: center;
+}
+
+nav > ul li{
+  display: inline;
+}
+
+nav > ul li a{
+   font-size:20px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: normal;
+   color: #000;
+   padding: 5px 35px 5px 35px;
+   text-decoration: none;
+   text-align: center;
+}
+
+#navbusiness:hover {
+  background-color: #ff8a27;
+  text-align: center;
+}
+
+#navpolitics:hover {
+  background-color: #ff2932;
+  text-align: center;
+}
+
+#navsports:hover {
+  background-color: #07abff;
+  text-align: center;
+}
+
+#navscience:hover {
+  background-color: #38e85c;
+  text-align: center;
+}
+
+#navworld:hover {
+  background-color: #ffff49;
+  text-align: center;
+}
+
+#headerlogo {
+  width: 125px;
+  height: 125px;
+  text-align: center;
+  display: block;
+  padding-top: 25px;
+  margin-left: 418px;
+}
+/*End Navigation*/
+
+#imgbanner {
+  position: relative;
+}
+
+#featuredbanner {
+  height: 40px;
+  width: 500px;
+  background-color:#ff8a27;
+  position: relative;
+  top: -40px;
+  right: -460px;
+}
+
+#featuredbanner > h2 {
+  padding: 5px 25px 5px 25px;
+}
