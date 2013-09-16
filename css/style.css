@@ -673,22 +673,27 @@ float: left;
   float:left;
   margin: 5px 5px 5px 5px;
  }
+
  #authorimage{
   height: 200px;
   width: 120px;
  }
+
 #articleimage{
-  height:180px;
-  width:180px;
+  height: 180px;
+  width: 180px;
 }
+
 #ad1image{
   height: 200px;
   width: 175px;
 }
+
 #ad2image{
   height: 300px;
   width: 200px;
 }
+
 #sideimage{
   height: 100px;
   width: 60px;
