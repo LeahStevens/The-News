@@ -451,7 +451,7 @@ textarea{
 
 .snippet h2 {
   margin: 10px 10px 0px 0px;
-  width: 150px;
+  width: 175px;
   padding-bottom: 0;
   color: #009b01;
   float: left;
@@ -475,7 +475,7 @@ textarea{
   display: inline;
   padding: 0;
   float: left;
-  width: 700px;
+  width: 600px;
 }
 
 #snippeticons li {
@@ -566,7 +566,8 @@ margin-top: 65px;
   float: left;
 }
 
-#thumb1 {
+/*business thumbnail border*/
+.thumb1 {
   width: 180px;
   height: 180px;
   border: 8px solid black;
@@ -574,15 +575,75 @@ margin-top: 65px;
   float: left;
 }
 
-#thumb1:hover {
+.thumb1:hover {
   border: 8px solid #ff8a27;
   transition: all 0.5s ease-in-out;
 }
+/*end business border*/
+
+/*politics thumbnail border*/
+.thumb2 {
+  width: 180px;
+  height: 180px;
+  border: 8px solid black;
+  display: inline-block;
+  float: left;
+}
+
+.thumb2:hover {
+  border: 8px solid #ff2932;
+  transition: all 0.5s ease-in-out;
+}
+/*end politics border*/
+
+/*sports thumbnail border*/
+.thumb3 {
+  width: 180px;
+  height: 180px;
+  border: 8px solid black;
+  display: inline-block;
+  float: left;
+}
+
+.thumb3:hover {
+  border: 8px solid #07abff;
+  transition: all 0.5s ease-in-out;
+}
+/* end sports border*/
+
+/*science thumbnail border*/
+.thumb4 {
+  width: 180px;
+  height: 180px;
+  border: 8px solid black;
+  display: inline-block;
+  float: left;
+}
+
+.thumb4:hover {
+  border: 8px solid #38e85c;
+  transition: all 0.5s ease-in-out;
+}
+/* end science border*/
 
 .clear {
   clear: both;
 }
 
+/*world thumbnail border*/
+.thumb5 {
+  width: 180px;
+  height: 180px;
+  border: 8px solid black;
+  display: inline-block;
+  float: left;
+}
+
+.thumb5:hover {
+  border: 8px solid #ffff49;
+  transition: all 0.5s ease-in-out;
+}
+/* end world border*/
 
 /* css for articles layout*/
 
